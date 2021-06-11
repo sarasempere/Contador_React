@@ -16,10 +16,6 @@ import { Counter } from "./component/secondsCounter.js";
 
 let counter = 0;
 
-function SumOne() {
-	setInterval(Count, 1000);
-}
-
 function Count() {
 	counter++;
 	//console.log(counter, "counter");
@@ -32,4 +28,4 @@ function Count() {
 	);
 }
 
-SumOne();
+setInterval(Count, 1000);
