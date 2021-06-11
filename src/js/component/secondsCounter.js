@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 export function Counter(props) {
 	let arr = Array.from(props.seconds.toString());
 	console.log(arr);
+
 	let hola = arr.map((x, i) => {
 		return (
 			<li key={i} className="list-group-item">
