@@ -21,7 +21,6 @@ function Count() {
 	//console.log(counter, "counter");
 	ReactDOM.render(
 		<div>
-			<Home />
 			<Counter seconds={counter} />
 		</div>,
 		document.querySelector("#app")
