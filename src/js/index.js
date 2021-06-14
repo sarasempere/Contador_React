@@ -9,7 +9,6 @@ import "bootstrap";
 import "../styles/index.scss";
 
 //import your own components
-import { Home } from "./component/home.js";
 import { Counter } from "./component/secondsCounter.js";
 
 //render your react application
@@ -22,6 +21,15 @@ function Count() {
 	ReactDOM.render(
 		<div id="main">
 			<Counter seconds={counter} />
+			<button
+				type="button"
+				className="btn btn-light"
+				id="reset"
+				onClick={() => {
+					counter = 0;
+				}}>
+				Reset
+			</button>
 		</div>,
 		document.querySelector("#app")
 	);

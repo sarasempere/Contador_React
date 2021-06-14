@@ -11,13 +11,13 @@ export function Counter(props) {
 		for (let i = 0; i < 10; i++) {
 			if (i < arr.length) {
 				newArr.push(
-					<div className="col-md-auto ppal">
+					<div className="col-md-auto ppal" key={i}>
 						<p>{arr[i]}</p>
 					</div>
 				);
 			} else {
 				newArr.unshift(
-					<div className="col-md-auto ppal">
+					<div className="col-md-auto ppal" key={i}>
 						<p>{0}</p>
 					</div>
 				);
