@@ -20,7 +20,7 @@ function Count() {
 	counter++;
 	//console.log(counter, "counter");
 	ReactDOM.render(
-		<div>
+		<div id="main">
 			<Counter seconds={counter} />
 		</div>,
 		document.querySelector("#app")

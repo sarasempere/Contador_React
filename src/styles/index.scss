@@ -11,3 +11,27 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+
+.ppal{
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+}
+
+p{
+    margin-top: 0.6rem;
+    margin-left: 1.1rem;
+    font-size: 3rem;
+    font-family: 'Pangolin', cursive;
+
+}
+
+#main{
+    padding:10rem; 
+}
